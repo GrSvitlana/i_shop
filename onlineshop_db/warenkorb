@@ -1,0 +1,4 @@
+CREATE TABLE warenkorb (
+  id char(64) default '',
+  bezeichnung char(64) default ''
+) COMMENT='Warenkorb';

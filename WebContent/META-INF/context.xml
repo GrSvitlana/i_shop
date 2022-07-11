@@ -1,0 +1,5 @@
+<Context reloadable="true">
+	   <Resource name="jdbc/onlineshop" auth="Container" type="javax.sql.DataSource"
+              username="root" password="12345678" driverClassName="com.mysql.cj.jdbc.Driver"
+	      url="jdbc:mysql://localhost:3306/onlineshop?autoReconnect=true&amp;serverTimezone=UTC" />
+</Context>

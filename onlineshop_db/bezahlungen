@@ -1,0 +1,5 @@
+CREATE TABLE bezahlungen (
+  id char(64) default '',
+  karte char(64) default '',
+  betrag double default 0.
+) COMMENT='Bezahlungen';

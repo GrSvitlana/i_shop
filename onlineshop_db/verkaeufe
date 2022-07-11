@@ -1,0 +1,9 @@
+CREATE TABLE verkaeufe (
+  id char(64) default '',
+  ware char(64) default '',
+  preis double default '0.',
+  kartennr char(64) default '',
+  name char(128) default '',
+  adresse char(128) default '',
+  email char(128) default ''
+) COMMENT='Verkaeufe';

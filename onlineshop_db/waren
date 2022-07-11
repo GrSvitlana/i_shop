@@ -1,0 +1,26 @@
+CREATE TABLE waren (
+  bezeichnung char(64) default '', 
+  preis double default 0.,
+  anzahl int default 0,
+  betriebssystem char(64) default '',
+  prozessor char(64) default '',
+  speicherkapazität char(64) default '',
+  displaydiagonale char(64) default '', 
+  farbe char(64) default '',
+  batterie char(64) default '', 
+  gewicht char(64) default '',
+  img char(64) default ''
+) COMMENT='Waren';
+
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A40',249.99,20,'Android 9', 'Exynos 7904','64 GB', '6.0 Zoll"','Schwarz', '2100 mAh', '620 g', 's1.png');
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A40',449.99,20,'Android 9', 'Exynos 7884B','128 GB', '6.1 Zoll"','Weiß', '3100 mAh', '720 g','s2.png');
+INSERT INTO waren VALUES ('HUAWEI P30',749.99,20,'Android 9', 'Kirin 710','512 GB', '6.15 Zoll"','Gold', '4100 mAh', '820 g','h1.png');
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A51',899,20,'Android 9', 'Exynos 9611','256 GB', '6.5 Zoll"','Silber', '2100 mAh', '920 g','s3.png');
+INSERT INTO waren VALUES ('HUAWEI P30',449.99,20,'Android 9', 'Kirin 710','128 GB', '6.15 Zoll"','Schwarz', '3100 mAh', '1120 g','h2.png');
+INSERT INTO waren VALUES ('XIAOMI Mi Note 10 Pro0',399,20,'Android 9', 'Qualcomm®','256 GB', '6.47 Zoll"','Weiß', '4100 mAh', '620 g','x1.png');
+INSERT INTO waren VALUES ('APPLE iPhone 11',1149,20,'iOS 13', 'A13 Bionic Chip','64 GB', '6.1 Zoll','Gold', '2000 mAh', '720 g','a1.png');
+INSERT INTO waren VALUES ('APPLE iPhone XS',799,20,'iOS 12', 'A12 Bionic','256 GB', '5.8 Zoll"','Silber', '3100 mAh', '820 g','a2.png');
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A40',249.99,20,'Android 9', 'Exynos 7904','64 GB', '6.0 Zoll"','Schwarz', '2100 mAh', '620 g', 's1.png');
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A40',449.99,20,'Android 9', 'Exynos 7884B','128 GB', '6.1 Zoll"','Weiß', '3100 mAh', '720 g','s2.png');
+INSERT INTO waren VALUES ('HUAWEI P30',749.99,20,'Android 9', 'Kirin 710','512 GB', '6.15 Zoll"','Gold', '4100 mAh', '820 g','h1.png');
+INSERT INTO waren VALUES ('SAMSUNG Galaxy A51',899,20,'Android 10.0', 'Exynos 9611','256 GB', '6.5 Zoll"','Silber', '2100 mAh', '920 g','s3.png');
